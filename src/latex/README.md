@@ -3,18 +3,7 @@
 
 A Dev Container for editing LaTeX documents with TeX Live. Supports pdfLaTeX, LuaLaTeX, pLaTeX, and upLaTeX engines including Japanese typesetting.
 
-## Optional Files
 
-Use `optionalPaths` to include only the engine-specific project directories you want:
-
-- `.github/*`
-- `.vscode/*`
-- `lualatex/*`
-- `pdflatex/*`
-- `platex/*`
-- `uplatex/*`
-- `.gitattributes`
-- `.gitignore`
 
 
 
