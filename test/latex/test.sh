@@ -26,5 +26,8 @@ check "platex PDF output created" test -f "../dist/platex.pdf"
 check "uplatex compilation" bash -c "cd ../uplatex && latexmk uplatex.tex > /dev/null 2>&1"
 check "uplatex PDF output created" test -f "../dist/uplatex.pdf"
 
+# Cleanup build artifacts to allow the CI runner to remove the workspace
+rm -rf ../build ../dist
+
 # Report result
 reportResults
