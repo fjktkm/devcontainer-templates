@@ -1,0 +1,21 @@
+{
+    "id": "maturin",
+    "version": "1.0.0",
+    "name": "maturin (uv)",
+    "description": "A Dev Container for building Python extensions in Rust with maturin.",
+    "documentationURL": "https://github.com/fjktkm/devcontainer-templates/tree/main/src/maturin",
+    "licenseURL": "https://github.com/fjktkm/devcontainer-templates/blob/main/LICENSE",
+    "optionalPaths": [
+        ".github/*"
+    ],
+    "platforms": [
+        "Rust",
+        "Python"
+    ],
+    "keywords": [
+        "rust",
+        "python",
+        "maturin",
+        "pyo3"
+    ]
+}

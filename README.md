@@ -40,6 +40,25 @@ devcontainer templates apply --workspace-folder . \
 
 See [src/latex/README.md](src/latex/README.md) for more details.
 
+## `maturin`
+
+A Dev Container for building Python extensions in Rust with maturin.
+
+**Usage:** Use the following template ID with the Dev Container CLI or by entering it manually in the VS Code / GitHub Codespaces UI when adding a dev container configuration:
+
+```
+ghcr.io/fjktkm/devcontainer-templates/maturin:latest
+```
+
+To apply via the [Dev Container CLI](https://github.com/devcontainers/cli):
+
+```bash
+devcontainer templates apply --workspace-folder . \
+    --template-id ghcr.io/fjktkm/devcontainer-templates/maturin:latest
+```
+
+See [src/maturin/README.md](src/maturin/README.md) for more details.
+
 ## `uv`
 
 A Dev Container for Python development with uv.
