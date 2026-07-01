@@ -1,20 +1,10 @@
 {
     "id": "latex",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "name": "LaTeX (TeX Live)",
-    "description": "A Dev Container for editing LaTeX documents with TeX Live. Supports pdfLaTeX, LuaLaTeX, pLaTeX, and upLaTeX engines including Japanese typesetting.",
+    "description": "A Dev Container for editing LaTeX documents with TeX Live.",
     "documentationURL": "https://github.com/fjktkm/devcontainer-templates/tree/main/src/latex",
     "licenseURL": "https://github.com/fjktkm/devcontainer-templates/blob/main/LICENSE",
-    "optionalPaths": [
-        ".github/*",
-        ".vscode/*",
-        "lualatex/*",
-        "pdflatex/*",
-        "platex/*",
-        "uplatex/*",
-        ".gitattributes",
-        ".gitignore"
-    ],
     "platforms": [
         "Any"
     ],
@@ -22,7 +12,6 @@
         "latex",
         "tex",
         "tex-live",
-        "typesetting",
-        "japanese"
+        "typesetting"
     ]
 }

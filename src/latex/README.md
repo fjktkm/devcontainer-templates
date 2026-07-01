@@ -1,7 +1,7 @@
 
 # LaTeX (TeX Live) (latex)
 
-A Dev Container for editing LaTeX documents with TeX Live. Supports pdfLaTeX, LuaLaTeX, pLaTeX, and upLaTeX engines including Japanese typesetting.
+A Dev Container for editing LaTeX documents with TeX Live.
 
 
 

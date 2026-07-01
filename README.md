@@ -4,7 +4,7 @@ A collection of dev container templates for improving development workflow.
 
 ## `latex`
 
-A Dev Container for editing LaTeX documents with TeX Live. Supports pdfLaTeX, LuaLaTeX, pLaTeX, and upLaTeX engines including Japanese typesetting.
+A Dev Container for editing LaTeX documents with TeX Live.
 
 **Usage:** Use the following template ID with the Dev Container CLI or by entering it manually in the VS Code / GitHub Codespaces UI when adding a dev container configuration:
 
