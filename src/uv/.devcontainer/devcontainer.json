@@ -1,9 +1,9 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/fjktkm/devcontainer-templates/tree/main/src/latex
+// README at: https://github.com/fjktkm/devcontainer-templates/tree/main/src/uv
 {
-    "name": "LaTeX (TeX Live)",
+    "name": "Python (uv)",
     // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-    "image": "texlive/texlive:latest",
+    "image": "ghcr.io/astral-sh/uv:debian",
 
     // Features to add to the dev container. More info: https://containers.dev/features.
     "features": {
@@ -14,7 +14,7 @@
     // "forwardPorts": [],
 
     // Use 'postCreateCommand' to run commands after the container is created.
-    // "postCreateCommand": "latexmk --version",
+    // "postCreateCommand": "uv sync",
 
     // Configure tool-specific properties.
     // "customizations": {},

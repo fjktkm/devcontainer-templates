@@ -1,10 +1,13 @@
 {
     "id": "latex",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "name": "LaTeX (TeX Live)",
     "description": "A Dev Container for editing LaTeX documents with TeX Live.",
     "documentationURL": "https://github.com/fjktkm/devcontainer-templates/tree/main/src/latex",
     "licenseURL": "https://github.com/fjktkm/devcontainer-templates/blob/main/LICENSE",
+    "optionalPaths": [
+        ".github/*"
+    ],
     "platforms": [
         "Any"
     ],

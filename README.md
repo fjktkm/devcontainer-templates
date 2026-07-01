@@ -20,3 +20,22 @@ devcontainer templates apply --workspace-folder . \
 ```
 
 See [src/latex/README.md](src/latex/README.md) for more details.
+
+## `uv`
+
+A Dev Container for Python development with uv.
+
+**Usage:** Use the following template ID with the Dev Container CLI or by entering it manually in the VS Code / GitHub Codespaces UI when adding a dev container configuration:
+
+```
+ghcr.io/fjktkm/devcontainer-templates/uv:latest
+```
+
+To apply via the [Dev Container CLI](https://github.com/devcontainers/cli):
+
+```bash
+devcontainer templates apply --workspace-folder . \
+    --template-id ghcr.io/fjktkm/devcontainer-templates/uv:latest
+```
+
+See [src/uv/README.md](src/uv/README.md) for more details.

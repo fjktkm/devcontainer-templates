@@ -13,6 +13,7 @@ jobs:
         with:
           filters: |
             latex: ./**/latex/**
+            uv: ./**/uv/**
 
   test:
     needs: [detect-changes]
