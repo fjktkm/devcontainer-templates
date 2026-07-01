@@ -59,6 +59,25 @@ devcontainer templates apply --workspace-folder . \
 
 See [src/maturin/README.md](src/maturin/README.md) for more details.
 
+## `mise`
+
+A Dev Container for polyglot tool version management with mise.
+
+**Usage:** Use the following template ID with the Dev Container CLI or by entering it manually in the VS Code / GitHub Codespaces UI when adding a dev container configuration:
+
+```
+ghcr.io/fjktkm/devcontainer-templates/mise:latest
+```
+
+To apply via the [Dev Container CLI](https://github.com/devcontainers/cli):
+
+```bash
+devcontainer templates apply --workspace-folder . \
+    --template-id ghcr.io/fjktkm/devcontainer-templates/mise:latest
+```
+
+See [src/mise/README.md](src/mise/README.md) for more details.
+
 ## `uv`
 
 A Dev Container for Python development with uv.

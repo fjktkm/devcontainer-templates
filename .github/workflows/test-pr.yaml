@@ -15,6 +15,7 @@ jobs:
             haskell: ./**/haskell/**
             latex: ./**/latex/**
             maturin: ./**/maturin/**
+            mise: ./**/mise/**
             uv: ./**/uv/**
 
   test:

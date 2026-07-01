@@ -1,0 +1,19 @@
+{
+    "id": "mise",
+    "version": "1.0.0",
+    "name": "mise",
+    "description": "A Dev Container for polyglot tool version management with mise.",
+    "documentationURL": "https://github.com/fjktkm/devcontainer-templates/tree/main/src/mise",
+    "licenseURL": "https://github.com/fjktkm/devcontainer-templates/blob/main/LICENSE",
+    "optionalPaths": [
+        ".github/*"
+    ],
+    "platforms": [
+        "Any"
+    ],
+    "keywords": [
+        "mise",
+        "version-manager",
+        "polyglot"
+    ]
+}
