@@ -12,6 +12,7 @@ jobs:
         id: filter
         with:
           filters: |
+            haskell: ./**/haskell/**
             latex: ./**/latex/**
             uv: ./**/uv/**
 

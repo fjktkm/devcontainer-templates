@@ -1,0 +1,36 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/fjktkm/devcontainer-templates/tree/main/src/haskell
+{
+    "name": "Haskell",
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "image": "haskell:latest",
+
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+
+    // Non-interactive GHCup install.
+    "containerEnv": {
+        "BOOTSTRAP_HASKELL_NONINTERACTIVE": "1",
+        "BOOTSTRAP_HASKELL_MINIMAL": "1"
+    },
+    "remoteEnv": {
+        "PATH": "/home/vscode/.ghcup/bin:${containerEnv:PATH}"
+    },
+
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // "forwardPorts": [],
+
+    // Install GHCup and the Haskell Language Server after the container is created.
+    "onCreateCommand": "curl -sSf https://get-ghcup.haskell.org | sh && ghcup install hls --set",
+
+    // Use 'postCreateCommand' to run commands after the container is created.
+    // "postCreateCommand": "ghc --version",
+
+    // Configure tool-specific properties.
+    // "customizations": {},
+
+    // Comment out to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+    "remoteUser": "vscode"
+}

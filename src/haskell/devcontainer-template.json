@@ -1,0 +1,18 @@
+{
+    "id": "haskell",
+    "version": "1.0.0",
+    "name": "Haskell",
+    "description": "A Dev Container for Haskell development with GHC.",
+    "documentationURL": "https://github.com/fjktkm/devcontainer-templates/tree/main/src/haskell",
+    "licenseURL": "https://github.com/fjktkm/devcontainer-templates/blob/main/LICENSE",
+    "optionalPaths": [
+        ".github/*"
+    ],
+    "platforms": [
+        "Haskell"
+    ],
+    "keywords": [
+        "haskell",
+        "ghc"
+    ]
+}
