@@ -1,6 +1,6 @@
 {
     "id": "latex",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "name": "LaTeX (TeX Live)",
     "description": "A Dev Container for editing LaTeX documents with TeX Live.",
     "documentationURL": "https://github.com/fjktkm/devcontainer-templates/tree/main/src/latex",
